@@ -1,8 +1,12 @@
 import React from "react";
 import howManyParks from "./parks/howManyParks";
 
-function ColoradoStateParks() {
-  howManyParks(); // => "42 parks!"
+function ColoradoStateParks() { 
 
-  return <h1>Colorado State Parks!</h1>;
+  return (
+    <div>
+  <h1>Colorado State Parks!</h1>
+     <howManyParks />
+   </div>
+  )
 }
